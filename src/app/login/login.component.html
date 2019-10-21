@@ -1,0 +1,24 @@
+<p>login works!</p>
+
+<form>
+    <table>
+        <tr>
+            <td>Username</td>
+            <td>
+                <input type="text" name="username" [(ngModel)]="teste.username" />
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>
+                <input type="text" name="password" [(ngModel)]="teste.password" />
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="button" value="Ok" (click)="login()" />
+            </td>
+        </tr>
+    </table>
+</form>
